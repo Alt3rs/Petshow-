@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font: sans-serif, verdana;
+}
+
+.logo {
+    width: 50px;
+}
+
+header *{
+    display: inline;
+}
+
+header {
+    width: 100%;
+    background-color: rgba(F,F,F, 0.5);
+    position: fixed;
+    top: 0px;
+    box-shadow:  0 0 20px 0 gray;
+}
+
+span {
+    position: relative;
+    bottom: 20px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav {
+    float: right;
+    width: 30%;
+    margin-top: 15px;
+    margin-right: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#banner {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    height: 520px;
+    
+}
+
+#banner div {
+    text-align: center;
+    padding-top: 350px;
+    color: white;
+}
+
+#banner div button {
+    border-radius: 20px;
+    padding: 15px 18px;
+    border: 0;
+    background-color: black;
+    color: white;
+}
+
+#banner div button:hover {
+    background-color: white;
+    color: black;
+}
+
+h3 {
+    text-align: center;
+}
+
+.produtos {
+    height: 60%;
+    width: 60%;  
+}
+
+#cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+
+#cards div {
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    background-color: rgb(129, 111, 111);
+    border-radius: 20px;
+}
+
+
+
+#cards div button {
+    border-radius: 20px;
+    padding: 15px 18px;
+    border: 0;
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 60px;
+    left: 10px;
+}
+
+#cards div button:hover {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
